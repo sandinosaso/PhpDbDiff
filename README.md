@@ -1,7 +1,8 @@
 PhpDbDiff
 =========
 
-Simple tool for compare two databases schemas. [(https://github.com/sandinosaso/PhpDbDiff/css/images/logo.png)](http://github.com/sandinosaso/PhpDbDiff/)
+Simple tool for compare two databases schemas.
+
 ===
 
 ### To build:
