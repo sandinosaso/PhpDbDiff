@@ -1,4 +1,36 @@
 PhpDbDiff
 =========
 
-A simple class for extracting the schema and performing the comparison between extracted schemas and a user interface to the class  Since we need to be able to access databases on different hosts, the solution I am using is to serialise the schema information and give it back to the user. The user is then required to copy and paste this data from separate instances back into a form so that the comparison can be performed.  The user interface provides the user with a list of pre-configured databases to choose from, and also allows the user to enter connection details in the form.
+Simple tool for compare two databases schemas. [(https://github.com/sandinosaso/PhpDbDiff/css/images/logo.png)](http://github.com/sandinosaso/PhpDbDiff/)
+===
+
+### To build:
+
+Prerequisites :
+
+    * Apache server and Mysql database
+    * PHP >= 5
+
+Put the files in your "www" folder
+
+### To run the tests:
+
+Unix/Macintosh:
+
+    make test
+
+Windows:
+
+    vcbuild.bat test
+
+### To build the documentation:
+
+    make doc
+
+### To read the documentation:
+
+    man doc/node.1
+
+Resources for Newcomers
+---
+  - [The Wiki](https://github.com/)
