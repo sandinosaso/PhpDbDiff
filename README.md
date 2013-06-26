@@ -2,7 +2,7 @@ PhpDbDiff
 =========
 
 Simple tool for compare two databases schemas.
-Based on PhpDbDiff code from 
+Based on PhpDbDiff code from http://joefreeman.co.uk/blog/2009/07/php-script-to-compare-mysql-database-schemas/
 
 Sandino Nunez <sandinosaso@gmail.com>
 =>Added the posibililty of generate sql to perform a transformation between an
