@@ -2,6 +2,12 @@ PhpDbDiff
 =========
 
 Simple tool for compare two databases schemas.
+Based on PhpDbDiff code from 
+
+Sandino Nunez <sandinosaso@gmail.com>
+=>Added the posibililty of generate sql to perform a transformation between an
+  old database schema and a new one. The compare tools ramains the same.
+  
 
 ===
 
@@ -30,7 +36,7 @@ Windows:
 
 ### To read the documentation:
 
-    man doc/node.1
+    man doc/DbDiff
 
 Resources for Newcomers
 ---
